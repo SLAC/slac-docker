@@ -1,0 +1,13 @@
+version: '2' 
+services:
+  mysql:
+    image: mysql/mysql-server:5.7
+    container_name: slac-mysql
+    ports:
+      - 6603:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "X9R4*GPGBstMZQ%A"
+    volumes:
+      - databases:/var/lib/mysql
+volumes:
+  databases: {}

@@ -6,7 +6,7 @@ services:
     ports:
       - 6603:3306
     environment:
-      MYSQL_ROOT_PASSWORD: "X9R4*GPGBstMZQ%A"
+      MYSQL_ROOT_PASSWORD: "FAKEROOTPASSWORD"
     volumes:
       - databases:/var/lib/mysql
 volumes:
